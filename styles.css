@@ -1,2 +1,19 @@
-
-/* Your CSS Code here. */
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+}
+.items {
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	background: green;
+	order: 1;
+}
+.first {
+	background-color: red;
+	order: 2;
+}
+.sec {
+	background: blue;
+	order:3;
+}
